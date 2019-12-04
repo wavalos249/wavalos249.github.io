@@ -22,18 +22,18 @@ html, body{
 }
 
 .nav-bar ul li {
-font-size: 90px;
+font-size: 20px;
 list-style-type: none;
 margin:0;
-padding: 53px 83px;
-height: 130px;
+padding: 20px 33px;
+height: 40px;
 text-align: center;
 font-family: "courier new";
 
 }
 
 .nav-bar ul li:hover {
-font-size: 100px;
+font-size: 25px;
 border-bottom: 6px solid white;
 cursor: pointer;
 }
@@ -65,7 +65,7 @@ cursor: pointer;
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -75,7 +75,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #3d3d5c;
   color: white;
-  font-size: 40px;
+  font-size: 10px;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -86,19 +86,23 @@ input[type=submit]:hover {
 }
 
 #lname{
-  font-size: 40px;
+  font-size: 10px;
 }
 
 #fname{
-  font-size: 40px;
+  font-size: 10px;
+}
+
+#email{
+  font-size: 10px;
 }
 
 #subject{
-  font-size: 40px;
+  font-size: 10px;
 }
 
 label {
-  font-size: 50px;
+  font-size: 15px;
   color: white;
   font-family: monospace;
 }
@@ -106,10 +110,10 @@ label {
 
 /* Create two columns that float next to eachother */
 .column {
-  margin-top: 750px;
-  margin-left: 1800px;
-  width: 50%;
-  padding: 80px;
+  margin-top: 130px;
+  margin-left: 300px;
+  width: 45%;
+  padding: 18px;
 }
 
 /* Clear floats after the columns */

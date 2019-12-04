@@ -22,18 +22,18 @@ html, body{
 }
 
 .nav-bar ul li {
-font-size: 90px;
+font-size: 20px;
 list-style-type: none;
 margin:0;
-padding: 53px 83px;
-height: 130px;
+padding: 20px 33px;
+height: 40px;
 text-align: center;
 font-family: "courier new";
 
 }
 
 .nav-bar ul li:hover {
-font-size: 100px;
+font-size: 25px;
 border-bottom: 6px solid white;
 cursor: pointer;
 }
@@ -46,7 +46,7 @@ cursor: pointer;
 }
 
 .nav-bar ul li:hover a {
-  /* color: pink; */
+  color: pink;
 }
 
 .content {
@@ -64,8 +64,8 @@ cursor: pointer;
 .content #profile-pic {
   position: absolute;
   display: block;
-  margin-top: 750px;
-  margin-left: 800px;
+  margin-top: 200px;
+  margin-left: 300px;
   padding: 30px;
   text-align: center;
 }
@@ -73,8 +73,8 @@ cursor: pointer;
 .content #profile-pic .pic {
   border-radius: 100%;
   border-width: thick;
-  width: 1380px;
-  height: 1380px;
+  width: 320px;
+  height: 320px;
   overflow: hidden;
   text-align: center;
 }
@@ -86,10 +86,10 @@ cursor: pointer;
 .content #profile-pic img{
   width: auto;
   height: 100%;
-  margin-left: -210px;
+  margin-left: -75px;
 }
 
 #replaceStrings {
   color: #ffffff;
-  font-size: 100px;
+  font-size: 30px;
 }
